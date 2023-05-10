@@ -1,0 +1,43 @@
+body,
+html { 
+  height: 100%;
+  width: 100%;
+  background: url(file:///C:/Users/dsowj/OneDrive/Desktop/head.html) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 2rem;
+  color: white;
+}
+.buffer{
+  height: 150px;
+}
+.btn{
+  border-radius: 100px;
+  font-weight:500;
+  text-transform: uppercase;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+.btn-primary{
+  background-color: orange;
+  border-color:orange ;
+  }
+.btn-primary:hover{
+  background-color: orange;
+  border-color:  white;
+}
+.btn-primary {  
+    background-color: orangeo;  
+    border-color: orange;  
+    --bs-btn-hover-bg: blue; 
+    --bs-btn-hover-border-color: white;
+}
+.btn-xl{
+  padding: 1em 2em;
+}
